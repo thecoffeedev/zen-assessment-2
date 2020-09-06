@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+.main_container{
+    margin: auto;
+    padding: 30px;
+    background-color: #E9ECEF;
+    width: 70%;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+  
+
+.icon {
+    padding: 10px;
+    background: #1d2d50;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 400px;
+    outline: none;
+}
+
+td{
+    width: 50%;
+    height: 80px;
+}

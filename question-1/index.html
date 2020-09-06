@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+    <script>
+        function myfun(){
+            alert("Thank you filling up!!!")
+        }
+    </script>
+    <form action="" onsubmit="myfun()">
+        <div class="main_container">
+            <table>
+                <tr>
+                    <td>
+                        <label for="fn">Full Name</label>
+                    </td>
+                    <td>
+                        <div class="input-container">
+                            <i class="fas fa-user-alt icon"></i>
+                            <input type="text" name="fullName" id="fn" class="input-field" placeholder="full name" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ad-1">Address Line 1</label>
+                    </td>
+                    <td>
+                        <div class="input-container">
+                            <i class="fas fa-address-book icon"></i>
+                            <input type="text" name="address-1" id="ad-1" class="input-field" placeholder="Address Line 1" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ad-2">Address Line 2</label>
+                    </td>
+                    <td>
+                        <div class="input-container">
+                            <i class="fas fa-address-book icon"></i>
+                            <input type="text" name="address-2" id="ad-2" class="input-field" placeholder="Address Line 2" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">City</label>
+                    </td>
+                    <td>
+                        <div class="input-container">
+                            <i class="fas fa-building icon"></i>
+                            <input type="text" name="city" id="city" class="input-field" placeholder="Address Line 2" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="spr">State / Province / Region</label>
+                    </td>
+                    <td>
+                        <div class="input-container">
+                            <i class="fas fa-map-marker-alt icon"></i>
+                            <input type="text" name="state" id="spr" class="input-field" placeholder="State / Province / Region" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="zip">Postal code / ZIP</label>
+                    </td>
+                    <td>
+                        <div class="input-container">
+                            <i class="fas fa-mail-bulk icon"></i>
+                            <input type="text" name="zip" id="zip" class="input-field" placeholder="Postal code / ZIP" maxlength="6" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="country">Country</label>
+                    </td>
+                    <td>
+                        <div class="input-container">
+                            <i class="fas fa-map-marked-alt icon"></i>
+                            <select name="country" id="country" class="input-field" required>
+                                <option value="1">India</option>
+                                <option value="2">Pakistan</option>
+                                <option value="3">China</option>
+                                <option value="4">Afghanistan</option>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">E-mail</label>
+                    </td>
+                    <td>
+                        <div class="input-container">
+                            <i class="fas fa-envelope icon"></i>
+                            <input type="email" name="email" id="email" class="input-field" placeholder="E-mail" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ph">Phone Number</label>
+                    </td>
+                    <td>
+                        <div class="input-container">
+                            <i class="fas fa-phone icon"></i>
+                            <input type="text" name="ph" id="ph" class="input-field" placeholder="Phone" required>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit" style="padding: 10px; font-size: 1.2rem; border-radius: 10px;">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
